@@ -34,7 +34,7 @@ public class MainActivity extends AppCompatActivity {
     MahasiswaAdapter adapter;
     RequestQueue requestQueue;
 
-    String BASE_URL = "http://172.20.10.4:3000/api/mahasiswa";
+    String BASE_URL = "http://192.168.137.172:3000/api/mahasiswa";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
